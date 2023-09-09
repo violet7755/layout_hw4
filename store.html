@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>2023切版直播班-作業4-門市據點</title>
-    <script type="module" crossorigin src="/layout_hw4/assets/main-fac33a70.js"></script>
-    <link rel="stylesheet" href="/layout_hw4/assets/main-5206fda2.css">
+    <script type="module" crossorigin src="/layout_hw4/assets/main-44dd8cd8.js"></script>
+    <link rel="stylesheet" href="/layout_hw4/assets/main-ee899ab3.css">
   </head>
   <body>
     
@@ -21,7 +21,102 @@
     </ul>
   </div>
 </div>
-    <h1 class="test-title">門市據點</h1>
+    <div class="container">
+  <div class="content">
+    <h1 class="title">門市據點</h1>
+    <div class="search-bar">
+      <label class="search-text">選擇地區</label>
+      <select class="city-list" id="stores">
+        <option value="city1">台北市</option>
+        <option value="city2">台中市</option>
+        <option value="city3">高雄市</option>
+      </select>
+  
+    </div>
+    <ul class="card-list">
+      <li class="store-card">
+        <img class="card-img" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-1.png?raw=true" alt="">
+        <div class="card-title">台北中山旗艦店</div>
+        <ul class="card-description">
+          <li>
+            <p><span class="material-symbols-outlined">call</span>電話：(02)000-1234</p>
+          </li>
+          <li>
+            <p><span class="material-symbols-outlined">schedule</span>營業時間：10:00-21:00</p>
+          </li>
+          <li>
+            <p><span class="material-symbols-outlined">location_on</span>地址：台北市中山區南京東路25巷2-1號</p>
+          </li>
+        </ul>
+        <div><a class="card-footer" href="#">詳細資訊</a></div>
+      </li>
+      <li class="store-card">
+        <img class="card-img" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-2.png?raw=true" alt="">
+        <div class="card-title">台北綠園店</div>
+        <ul class="card-description">
+          <li>
+            <p><span class="material-symbols-outlined">call</span>電話：(02)000-2345</p>
+          </li>
+          <li>
+            <p><span class="material-symbols-outlined">schedule</span>營業時間：10:00-21:00</p>
+          </li>
+          <li>
+            <p><span class="material-symbols-outlined">location_on</span>地址：台北市中正區復興南路 132-1 號</p>
+          </li>
+        </ul>
+        <div><a class="card-footer" href="#">詳細資訊</a></div>
+      </li>
+      <li class="store-card">
+        <img class="card-img" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-3.png?raw=true" alt="">
+        <div class="card-title">台中清水旗艦店</div>
+        <ul class="card-description">
+          <li>
+            <p><span class="material-symbols-outlined">call</span>電話：(04)000-1234</p>
+          </li>
+          <li>
+            <p><span class="material-symbols-outlined">schedule</span>營業時間：10:00-21:00</p>
+          </li>
+          <li>
+            <p><span class="material-symbols-outlined">location_on</span>地址：台中市清水區經南一路 23 號 8 樓</p>
+          </li>
+        </ul>
+        <div><a class="card-footer" href="#">詳細資訊</a></div>
+      </li>
+      <li class="store-card">
+        <img class="card-img" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-4.png?raw=true" alt="">
+        <div class="card-title">高雄中正形象店</div>
+        <ul class="card-description">
+          <li>
+            <p><span class="material-symbols-outlined">call</span>電話：(07)000-2345</p>
+          </li>
+          <li>
+            <p><span class="material-symbols-outlined">schedule</span>營業時間：10:00-21:00</p>
+          </li>
+          <li>
+            <p><span class="material-symbols-outlined">location_on</span>地址：高雄市苓雅區中正路 38 號 12 樓</p>
+          </li>
+        </ul>
+        <div><a class="card-footer" href="#">詳細資訊</a></div>
+      </li>
+      <li class="store-card">
+        <img class="card-img" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/store-5.png?raw=true" alt="">
+        <div class="card-title">高雄夢時代店</div>
+        <ul class="card-description">
+          <li>
+            <p><span class="material-symbols-outlined">call</span>電話：(07)000-1234</p>
+          </li>
+          <li>
+            <p><span class="material-symbols-outlined">schedule</span>營業時間：10:00-21:00</p>
+          </li>
+          <li>
+            <p><span class="material-symbols-outlined">location_on</span>高雄市前鎮區中華一路 63 號 6 樓</p>
+          </li>
+        </ul>
+        <div><a class="card-footer" href="#">詳細資訊</a></div>
+      </li>
+    </ul>
+  </div>
+</div>
     
     <div class="footer">
   <div class="container">
@@ -37,11 +132,11 @@
         <div class="contact">
           <div class="contact-detail">
            <p class="phone"></p>
-            <span class="material-symbols-outlined">call</span>0800-000-000
+            <a href=""><span class="material-symbols-outlined">call</span>0800-000-000</a>
           </div>
           <div class="contact-detail">
            <p class="e-mail"></p>
-            <span class="material-symbols-outlined">mail</span>glasses@business.com
+            <a href=""><span class="material-symbols-outlined">mail</span>glasses@business.com</a>
           </div>
         </div>
       </div>
