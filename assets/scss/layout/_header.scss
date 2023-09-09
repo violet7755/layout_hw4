@@ -10,24 +10,21 @@
   img {
     max-width: 80px;
     vertical-align: middle;
-    @include md {
+    @include sm {
     padding:12px;
    }
   }
-  @include md {
+  @include sm {
     padding:0;
   }
 }
 .navbar {
-  max-width: 1296px;
   margin: 0 auto;
+	padding: 0 12px;
+	max-width: 1320px;
     
-  @include lg{
-    max-width: 992px;
-    padding: 0;
-  }
-  @include md {
-    max-width: 767px;
+  @include sm {
+    max-width: 576px;
     display: block;
     padding: 0;
   }
@@ -38,8 +35,8 @@
     padding-right: 30px;
     font-size: 20px;
   }
-  @include md {
-    max-width: 767px;
+  @include sm {
+    max-width: 576px;
     padding: 0;
     flex-wrap: wrap;
     
@@ -58,7 +55,7 @@
   }
 }
 .nav {
-  @include md{
+  @include sm{
     font-size: 16px;
   }    
 }

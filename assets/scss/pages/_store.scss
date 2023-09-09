@@ -1,0 +1,89 @@
+/* store-content */
+
+.search-bar {
+  display: flex;
+  margin: 32px 0 40px 0;
+  align-items: center;
+  width: 31%;
+  @include lg {
+    width: 48%;
+  } 
+  @include md {
+    width: 100%;
+  } 
+  @include sm {
+    margin: 24px 0;
+  } 
+}
+.search-text {
+  font-size: 24px;
+  margin-right: 16px;
+  @include sm {
+    font-size:16px;
+    margin-right: 8px;
+  } 
+}
+.city-list {
+  border: 1px solid #CED4DA;
+  width:60%;
+  height:36px;
+  @include sm {
+    height:24px;
+  } 
+}
+.card-list {
+  display: flex;
+  flex-wrap: wrap; 
+  gap:24px; 
+  @include lg {
+    justify-content: space-between;
+  }  
+}
+.store-card {
+  width: 31%;
+ 
+  @include lg {
+    width: 48%;
+  } 
+  @include md {
+    width: 100%;
+  } 
+}
+.card-img {
+  width:100%;
+  vertical-align: middle;
+}
+.card-title {
+  border: 1px solid #00000020;
+  padding: 8px 24px;
+  font-size: 24px;
+}
+.store-card {
+  display: flex;
+  flex-direction: column;
+}
+.card-description {
+  flex-grow: 1;
+  border: 1px solid #00000020;
+  padding: 16px 24px 8px 24px;
+  font-size: 20px;
+  li {
+    padding-bottom: 8px;
+    p {
+      display: flex;
+      align-items: center; 
+        span {
+          padding-right: 8px;
+      } 
+    }
+  }
+}
+.card-footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size:19px;
+  padding: 16px 0;
+}

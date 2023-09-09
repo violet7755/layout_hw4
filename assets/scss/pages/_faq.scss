@@ -1,28 +1,13 @@
-/* content */
-.content {
+/* faq */
+.faq-page {
   max-width: 856px;
-  padding-top: 96px;
-  padding-bottom: 80px;
   margin-right: auto;
-  @include md {
-    padding-top: 40px;
-    padding-bottom: 64px;
-  }
-}
-.title {
-  font-weight: 700;
-  font-size: 48px;
-  border-left: 8px solid #9f1213;
-  padding-left: 8px;
-  @include md {
-    font-size: 24px;
-  } 
 }
 .text {
   font-weight: 700;
   padding-top: 32px;
   font-size: 24px;
-  @include md {
+  @include sm {
     padding-top: 24px;
   } 
 }
